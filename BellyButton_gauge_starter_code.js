@@ -14,13 +14,14 @@ function buildCharts(sample) {
   
 
     // 2. Create a variable that holds the first sample in the metadata array.
-    
+   
 
     // Create variables that hold the otu_ids, otu_labels, and sample_values.
 
 
     // 3. Create a variable that holds the washing frequency.
-   
+    var washFrequency = sampleArray.wfreq;
+
     // Create the yticks for the bar chart.
 
     // Use Plotly to plot the bar data and layout.
