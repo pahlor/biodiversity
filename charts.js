@@ -142,7 +142,7 @@ function buildCharts(sample) {
       mode: "gauge+number",
       gauge: {
         bar: {color: 'black'},
-        axis: {range: [null,10], tickwidth: 1, tickcolor: "black"},
+        axis: {range: [null,10], dtick: 2, tickwidth: 2, tickcolor: "black"},
         steps: [
           {range: [0,2], color: "red"},
           {range: [2,4], color: "orange"},
