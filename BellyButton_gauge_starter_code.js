@@ -20,7 +20,6 @@ function buildCharts(sample) {
 
 
     // 3. Create a variable that holds the washing frequency.
-    var washFrequency = sampleArray.wfreq;
 
     // Create the yticks for the bar chart.
 
